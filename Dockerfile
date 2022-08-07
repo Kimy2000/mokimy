@@ -1,8 +1,8 @@
 FROM alpine
 
-COPY ./web /app
+COPY ./web
 
-COPY ./web.sh /app
+COPY ./web.sh
 
 WORKDIR /app
 
