@@ -1,8 +1,8 @@
 FROM alpine
 
-COPY ./web
+COPY ./web web
 
-COPY ./web.sh
+COPY ./web.sh web.sh
 
 
 
